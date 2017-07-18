@@ -1,0 +1,338 @@
+.big_pic {
+    width: 100%;
+    background: #c4c4c4;
+    height:582px;
+}
+.big_pic p{
+    width: 100%;
+}
+.title_txt{
+    width:1280px;
+    margin: 0 auto;
+    padding-top: 186px;
+    padding-left: 100px;
+}
+.txt_01{
+    font-size: 24px;
+    color:white;
+}
+/*图片banner*/
+/*.banner{
+    width:100%;
+    position: relative;
+    overflow: hidden;
+}
+.banner img{
+    width:100%;
+}
+.banner ul.long{
+    width:500%;
+}
+.banner ul.long li{
+    width:20%;
+    float: left;
+}
+.banner ul.long li img{
+    width:100%;
+}
+.banner div.point ul li{
+    width:10px;
+    height:10px;
+    float: left;
+    background: #b8b8b8;
+    border-radius: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.banner div.point{
+    position: absolute;
+    bottom: 60px;
+    left: 50%;
+    margin-left: -62.5px;
+}
+.banner div.point ul li.on{
+    background: #7b7b7b;
+}*/
+/*新增修改*/
+#banner{
+    width:100%;
+    position: relative;
+}
+#banner .banner{
+    width:100%;
+    overflow: hidden;
+}
+#banner .banner ul{
+    width:500%;
+    overflow: hidden;
+}
+#banner .banner ul li{
+    width:20%;
+    float: left;
+}
+#banner .banner ul li img{
+    width:100%;
+    display: block;
+}
+#banner div.point{
+    position: absolute;
+    bottom: 60px;
+    left: 50%;
+    margin-left: -62.5px;
+}
+#banner div.point ul li{
+    width:10px;
+    height:10px;
+    float: left;
+    background: #b8b8b8;
+    border-radius: 100%;
+    margin-left: 10px;
+    cursor: pointer;
+}
+#banner div.point ul li.on{
+    background: #7b7b7b;
+}
+/*3张图*/
+.screen{
+    width:100%;
+    position: relative;
+    overflow: hidden;
+}
+.screen div.title {
+    font-size: 40px;
+    position: absolute;
+    top: 1%;
+    left: 50%;
+    margin-left: -108.15px;
+    color:#0E0E0E;
+    font-family: "Arial";
+}
+.screen ul.long{
+    width:500%;
+}
+.screen ul.long li{
+    width:20%;
+    float: left;
+}
+.screen ul.long li img{
+    width:100%;
+}
+.screen div.point ul li{
+    width:10px;
+    height:10px;
+    float: left;
+    background: #b8b8b8;
+    border-radius: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+/*.screen div.point{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    margin-left: -35.5px;
+}*/
+
+.screen div.point{
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    margin-left: -35.5px;
+}
+
+
+
+/*选项卡*/
+.card_choose {
+    width: 100%;
+    background: white;
+}
+.logo_choose{
+    width:1280px;
+    height: 100px;
+    margin: 0 auto;
+}
+.logo_sec{
+    float: left;
+    padding-top: 30px;
+}
+
+.Exhibitor{float: right; width:670px; overflow:auto;margin-top: 4px;}
+.hl_main5_content{width:670px;float:left;margin-top: 10px;}
+.h1_main5_title{ height:30px; background:#999; line-height:30px; padding-left:10px; font-size:14px; font-weight:bold;}
+/*.hl_main5_content1{width:600px; overflow:hidden; float:left; margin-left:20px;}*/
+.hl_main5_content1{width:595px; overflow:hidden; float:left; margin:0 20px;}
+.hl_main5_content1 ul{width:1600px; overflow:hidden;}
+
+
+/*
+.hl_main5_content1 ul li{ float:left; width:136px; display:inline; margin-right:15px;}
+*/
+/*.hl_main5_content1 ul li{ float:left; width:136px;height: 65px; display:inline; margin-right:15px;}*/
+.hl_main5_content1 ul li{ float:left; display:inline; margin-right:15px;}   /*修改2*/
+
+
+
+
+.hl_scrool_leftbtn{width:14px; height:38px;background:url(../images/hl_scroll_left.png) no-repeat; float:left; cursor:pointer;}
+
+/*新增  首页icon图 */
+/*.hl_main5_content1 ul li a{
+    width: 138px;
+    height: 67px;
+    display: block;
+}*/
+/*修改2*/
+.hl_main5_content1 ul li a{
+    display: block;
+}
+.hl_main5_content1 ul li a img{
+    display: block;
+}
+/*.hl_main5_content1 ul li a img{
+    width: 136px;
+    height: 65px;
+}*/
+
+.hl_scrool_rightbtn{width:20px; height:38px;background:url(../images/hl_scroll_right.png) no-repeat; float:right; cursor:pointer;}
+.demoList li{
+    border:1px solid #f6f6f6;
+    cursor: pointer;
+}
+.demoList li.choose_01 {
+    border: 1px solid #7E7E7E;
+}
+.screen_show {
+    width: 100%;
+    background: #171717;
+}
+.screen_show div img{
+    width:100%;
+    display: block; /*修改*/
+}
+/*.screen_show div{
+    width:1280px;
+    margin: 0 auto;
+    padding-top: 52px;
+    display: none;
+    position: relative;
+}*/
+/*修改1*/
+.screen_show div{
+    width:1280px;
+    margin: 0 auto;
+    display: none;
+    position: relative;
+}
+.screen_show div div.btn_slogo{
+    position: absolute;
+    width: 307px;
+    height: 70px;
+    bottom: 8%;
+    left: 2%;
+    z-index: 10;
+    padding-top: 0;
+}
+.screen_show div:first-child{
+    display: block;
+}
+.card_choose div.screen_show div.show_002, .card_choose div.screen_show div.show_003,
+.card_choose div.screen_show div.show_004, .card_choose div.screen_show div.show_005,
+.card_choose div.screen_show div.show_006, .card_choose div.screen_show div.show_007,
+.card_choose div.screen_show div.show_008{
+    display: none;
+}
+.pic_show_01 {
+    width:100%;
+    background: white;
+    padding-bottom: 76px;
+}
+.pic_show_01 div.pic_10{
+    width:100%;
+    padding-top: 30px;
+    overflow: hidden;
+}
+.pic_show_01 div.pic_10 div.pic_jingtai_01{
+    float: left;
+    width:49.5%;
+    height:391px;
+}
+.pic_show_01 div.pic_10 div.pic_jingtai_02{
+    float: right;
+    width:49.5%;
+    height:391px;
+}
+.pic_show_01 div.pic_10 div.pic_jingtai_01 div.about img,
+.pic_show_01 div.pic_10 div.pic_jingtai_02 div.about img{
+    width:100%;
+}
+/*
+.pic_show_01 div.pic_10 div.pic_jingtai_01 {
+    float: left;
+    width:49.5%;
+    height:391px;
+    background: url("../images/about.jpg") no-repeat center;
+    background-size: 100% 100%;
+    position: relative;
+}
+.pic_show_01 div.pic_10 div.pic_jingtai_02 {
+    float: right;
+    width:49.5%;
+    height:391px;
+    background: url("../images/contact.png") no-repeat center;
+    background-size: 100% 100%;
+    position: relative;
+}
+.pic_show_01 div.pic_10 div.pic_jingtai_01 div.about {
+    width: 270px;
+    height: 200px;
+    background: url("../images/txt_bg.png") no-repeat;
+    position: absolute;
+    top: 10%;
+    right: 5%;
+}
+.pic_show_01 div.pic_10 div.pic_jingtai_01 div.about div.about_txt {
+    width: 67%;
+    margin: 0 auto;
+    padding-top: 15%;
+}
+.pic_show_01 div.pic_10 div.pic_jingtai_01 div.about div.about_txt p.title{
+    font-size: 27px;
+    width: 184px;
+}
+.pic_show_01 div.pic_10 div.pic_jingtai_01 div.about div.about_txt p.article{
+    width:195px;
+    font-size: 12px;
+    color: #aaa;
+}
+.pic_show_01 div.pic_10 div.pic_jingtai_01 div.about div.about_txt div.more{
+    margin-top: 8%;
+    width: 99px;
+    height: 29px;
+}
+.pic_show_01 div.pic_10 div.pic_jingtai_02 div.about {
+    width: 270px;
+    height: 200px;
+    background: url("../images/txt_bg.png") no-repeat;
+    position: absolute;
+    top: 10%;
+    left: 5%;
+}
+.pic_show_01 div.pic_10 div.pic_jingtai_02 div.about div.about_txt {
+    width: 67%;
+    margin: 0 auto;
+    padding-top: 14%;
+}
+.pic_show_01 div.pic_10 div.pic_jingtai_02 div.about div.about_txt p.title{
+    font-size: 27px;
+    width: 184px;
+}
+.pic_show_01 div.pic_10 div.pic_jingtai_02 div.about div.about_txt p.article{
+    font-size: 12px;
+    color: #aaa;
+}
+.pic_show_01 div.pic_10 div.pic_jingtai_02 div.about div.about_txt div.more{
+    margin-top: 8%;
+    width: 99px;
+    height: 29px;
+}*/

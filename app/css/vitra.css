@@ -1,0 +1,38 @@
+/*@import "choose_nav.css";*/
+@import "product.css";
+.right{
+    width: 1050px;
+    float: right;
+}
+.right_chanping{
+    margin-bottom: 33px;
+    position: relative;
+}
+
+
+.right_chanping img {
+    width: 100%;
+}
+
+
+.right_chanping div.btn{
+    position: absolute;
+    width: 250px;
+    height: 30px;
+    bottom: 9%;
+    left: 2%;
+    z-index: 10;
+}
+
+.tab_txt {
+    color: #323232;
+    font-size: 12px;
+    position: absolute;
+    top: 89%;
+    left: 11%;
+    line-height: 1.2;
+    font-family: "Arial";
+}
+.tab_txt p:last-child{
+    color:#787878;
+}

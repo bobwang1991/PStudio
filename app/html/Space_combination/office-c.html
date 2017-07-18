@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--Designer:[] Developer:[王之] date:20160425-->
+    <meta charset="UTF-8">
+    <title>Plus Studio - 办公与世界同步</title>
+    <script type="text/javascript" src="../../js/jquery.min.js"></script>
+    <meta http-equiv="pragma" content="no-cache"/>
+    <link rel="shortcut icon" href="../../images/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="../../css/normal-all.css"/>
+    <link rel="stylesheet" href="../../css/style.css"/>
+    <link rel="stylesheet" href="../../css/space.css"/>
+    <style>
+        .right_chanping{background: url("../../images/space/officeC.jpg") no-repeat;}
+        .jiantou{background: url("../../images/product/jiantou.png") no-repeat 92% 75%;}
+        .first div.dot{left: 58.5%;top: 44.2%;}
+        .first div.dot-middle{left: 54.5%;top: 37%;}
+        .first div.pulse{left: 52.7%;top: 33.8%;}
+        .show_pic_01{top: 17%;left: 44.7%;}
+    </style>
+</head>
+<body>
+<div class="wrap">
+    <div id="header">
+        <div class="nav">
+            <div class="logo"><img src="../../images/logo.png" alt=""/></div>
+            <div class="nav_01">
+                <ul class="clearfix">
+                    <li><a href="../../index.html">首页</a></li>
+                    <li><a href="../product/product.html">全部产品</a></li>
+                    <li><a href="office-a.html">空间组合</a></li>
+                    <li><a href="../tiexin_servers.html">贴心服务</a></li>
+                    <li><a href="../../contact_us.html">联系我们</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="phone">
+            <div class="phone_txt clearfix">
+                <div class="company_logo"><p>An Element Plus Company</p></div>
+                <div class="phone_manager"><p>专业产品顾问为您提供咨询：+86-021-63350971（工作日10:00-18:00）</p></div>
+            </div>
+        </div>
+    </div>
+    <div id="container" class="clearfix">
+        <div class="top">
+            <p>
+                <span><a href="../../index.html">首页</a></span>
+                <span>></span>
+                <span><a href="office-a.html">空间组合</a></span>
+                <span>></span>
+                <span>办公区 B</span>
+            </p>
+        </div>
+        <div class="sub_nav">
+            <ul>
+                <li class="zhineng zhineng_01">
+                    <a href="office-a.html">空 间 组 合</a>
+                    <ul class="sub_nav_sec">
+                        <a href="office-a.html"><li class="sub_nav_01">办公区 A</li></a>
+                        <a href="office-b.html"><li class="sub_nav_01">工作室</li></a>
+                        <a href="office-c.html"><li class="sub_nav_01 bold jiantou">办公区 B</li></a>
+                        <a href="storage.html"><li class="sub_nav_01">储物区</li></a>
+                        <a href="leisure.html"><li class="sub_nav_01">休闲区</li></a>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="right_chanping">
+            <div class="point">
+                <ul>
+                    <li class="first">
+                        <div class="dot"></div>
+                        <div class="dot-middle"></div>
+                        <div class="pulse"></div>
+                        <div class="show_pic show_pic_01">
+                            <a href="#">
+                                <div class="pic"><img src="../../images/space/productC.png" alt=""/></div>
+                                <div class="txt">
+                                    <p class="title">finest</p>
+                                    <p class="text">meta+</p>
+                                </div>
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!--版权-->
+<div id="footer">
+    <div class="footer">
+        <div>
+            <div class="logo_footer"><img src="../../images/footer_logo.png" alt=""/></div>
+            <p class="company_name">An Element Plus Company</p>
+            <p class="servers">咨询热线</p>
+            <p class="servers_phone">+86-021-63350971<br/><span>（工作日10:00-18:00）</span></p>
+
+            <div class="lianjie">
+                <a href="../../contact_us.html#about">about us</a>
+                <span>|</span>
+                <a href="../../contact_us.html#contact">contact us</a>
+            </div>
+            <div class="sina">
+                <img id="sina" src="../../images/sina.png" alt=""/>
+                <div class="sina_tanchuang"><img src="../../images/sina_img.png" alt=""/></div>
+            </div>
+            <div class="weixin_btn">
+                <img id="weixin_btn" src="../../images/weixin_btn.png" alt=""/>
+                <div class="weixin_btn_tanchuang"><img src="../../images/weixin_img.png" alt=""/></div>
+            </div>
+            <p class="copy">Copyright&copy; <script language="JavaScript">var now = new Date();var year = now.getFullYear();document.write(year);</script> Plus Studio. All Right Reserved.</p>
+        </div>
+    </div>
+</div>
+<script>
+    $(function(){
+        var $width=$(window).width();
+        if($width<1334){
+            $('.phone_txt').width('1280px');
+            $('.nav').width('1280px');
+        }else{
+            $('.phone_txt').width('1280px');
+        }
+
+        $(window).resize(function(){
+            var $width=$(window).width();
+            if($width<1334){
+                $('.phone_txt').width('1280px');
+                $('.nav').width('1280px');
+            }else{
+                $('.phone_txt').width('1280px');
+            }
+        })
+    });
+</script>
+<script type="text/javascript" src="../../js/space.js"></script>
+</body>
+</html>

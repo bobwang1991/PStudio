@@ -1,0 +1,10 @@
+@import "vitra.css";
+.left{
+     float: left;
+ }
+
+.right_chanping div.btn{
+    background: #171717;
+    left:0;
+    bottom:10%;
+}

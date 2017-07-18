@@ -1,0 +1,89 @@
+@import "service.css";
+.contact div.text div.phone {
+    background: transparent;
+    font-size: 16px;
+    line-height: 2;
+}
+.contact{
+    margin-top: 31px;
+}
+
+.contact div.text{
+    color:#323232;
+}
+.contact div.text div.adress{
+    font-size: 16px;
+    line-height: 2;
+}
+.contact div.text div.adress_en{
+    font-size: 16px;
+    line-height: 2;
+    color:#323232;
+    font-family: "Arial";
+}
+.about{
+    margin: 60px 0 90px;
+}
+.about div.title{
+    border-bottom: 1px solid #b2b2b2;
+}
+.about div.title p{
+    padding-bottom: 0.6%;
+    color:#343434;
+    font-size: 32px;
+    font-family: "Arial";
+}
+.about div.title p span{
+    font-size: 29px;
+    /*font-family: "Arial";*/
+    font-family: "微软雅黑";
+}
+.about div.ch_txt{
+    font-size: 12px;
+    line-height: 2.5;
+    color: #323232;
+    /*font-family:"黑体";*/
+}
+.about div.en_txt{
+    font-size: 12px;
+    line-height: 2.5;
+    color: #323232;
+    font-family: "Arial";
+}
+.about div.pic_about{
+    width:100%;
+    margin-bottom: 2%;
+}
+.about div.pic_about div.pic_01{
+    width:33%;
+    float: left;
+    margin-right: 0.5%;
+}
+.about div.pic_about div.pic_01:last-child{
+    margin-right: 0;
+}
+.about div.pic_txt div.ch_text{
+    width:543px;
+    float: left;
+}
+.about div.pic_txt div.en_text{
+    width:543px;
+    margin-top: 33px;
+    float: left;
+}
+.about div.pic_txt div.ch_text p {
+    font-size: 12px;
+    /*margin-bottom: 20px;*/
+    margin-bottom: 28px;
+    /*font-family: "黑体";*/
+    color:#646464;
+}
+.about div.pic_txt div.en_text p{
+    font-size: 12px;
+    margin-bottom: 10px;
+    font-family: "Arial";
+    color:#707070;
+}
+.about div.pic_txt div.pic_right{
+    float: right;
+}

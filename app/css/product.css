@@ -1,0 +1,130 @@
+@import "choose_nav.css";
+.grid__item img{
+    width:255px;
+    height:auto;
+    padding: 10px;
+}
+.grid__item {
+    width: 255px!important;
+}
+#container{
+    width:1280px;
+    margin: 0 auto;
+}
+.top{
+    margin: 13px 0 10px 0;
+}
+.top a {
+    font-size: 12px;
+}
+.top p span:last-child{
+    color: #020202;
+}
+.sub_nav{
+    float: left;
+}
+.zhineng {
+    width: 176px;
+    height: 32px;
+    background: #323232  url("../images/product/add.png") no-repeat right;
+    margin-top: 28px;
+    color: white;
+    font-size: 18px;
+    line-height: 32px;
+    padding-left: 20px;
+}
+.zhineng a{
+    color:white;
+    font-size: 18px;
+    line-height: 32px;
+    padding-left: 20px;
+}
+.page_tab {
+    width: 1020px;
+    text-align: center;
+    margin: 100px 0 30px;
+}
+.page_tab p span{
+    padding-right: 30px;
+    color:#969696;
+    font-family: "Arial";
+}
+.page_tab p span:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.bold {
+    color: #323232!important;
+    font-weight: bold;
+}
+.top p {
+    color: black;
+}
+
+/*------------------------------------*/
+/*#container_xxx {
+    float: right;
+    width: 1100px;
+}*/
+#container_xxx {
+    float: right;
+    width: 1050px;
+}
+/**
+ * Grid container
+ */
+.tiles-wrap {
+    position: relative; /** Needed to ensure items are laid out relative to this container **/
+    margin: 10px 0;
+    padding: 0;
+    list-style-type: none;
+    display: none;
+}
+
+
+/**
+ * Grid items
+ */
+.tiles-wrap li {
+    display: block;
+    list-style-type: none;
+    background-color: #fff;
+    float: left;
+    cursor: pointer;
+    padding: 4px;
+    /*margin-left: 30px;*/
+}
+
+
+.tiles-wrap.wookmark-initialised li {
+    opacity: 1;
+}
+
+.tiles-wrap li.wookmark-inactive {
+    visibility: hidden;
+    opacity: 0;
+}
+
+
+
+.tiles-wrap img {
+    display: block;
+}
+
+
+.tiles-wrap li {
+    width: 245px;
+
+}
+/**-------------------------------------***/
+
+.water_pic img {
+    width: 100%;
+}
+
+.water_user {
+    margin-left: 7%;
+    color: #323232;
+    font-size: 12px;
+    font-family: "Arial";
+}

@@ -1,0 +1,92 @@
+#container{
+    width:1280px;
+    margin: 0 auto;
+    position: relative;
+}
+.top{
+    margin: 13px 0 0 0;
+}
+.top a {
+    font-size: 12px;
+}
+.top p span:last-child{
+    color: #020202;
+}
+
+.servers_pic_group{
+    margin-bottom: 272px;
+}
+.servers_pic_group div{
+    width: 47.9%;
+    margin: 30px 0 0 0;
+    cursor: pointer;
+}
+.servers_pic_group div.shitizhanting{
+    float: left;
+}
+.servers_pic_group div.zhuanyekongjian{
+    float: right;
+}
+.servers_pic_group div.shitizhanting img, .servers_pic_group div.zhuanyekongjian img{
+    width: 100%;
+}
+.notice {
+    width: 942px;
+    height: 374px;
+    position: absolute;
+    top: 20%;
+    left: 13%;
+    border: 1px solid #bfbfbf;
+    background: white;
+    /*text-align: center;*/
+}
+.txt{
+    width:807px;
+    margin: 60px 0 0 72px;
+}
+.txt_notice{
+    font-size: 18px;
+    font-weight: bold;
+    color: #ee5418;
+    /*font-family: "黑体";*/
+}
+.en{
+    font-size: 16px;
+    font-family: "Arial";
+    font-weight: normal;
+    color: #686868;
+}
+.artice{
+    font-size: 14px;
+    color: #7d7d7d;
+    font-weight: normal;
+    padding: 15px 0 16px;
+}
+.artice_en{
+    font-size: 14px;
+    color: #7d7d7d;
+    font-weight: normal;
+    font-family: "Arial";
+}
+.kongjian{
+    height:414px;
+}
+.close{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+.zhezhao {
+    width: 1280px;
+    height: 576px;
+    background: white;
+    opacity: 0.5;
+    display: none;
+    position: absolute;
+    top:0;
+    left:0;
+}
+.zhanting, .kongjian{
+    display: none;
+}
